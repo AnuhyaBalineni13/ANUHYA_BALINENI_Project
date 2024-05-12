@@ -1,7 +1,7 @@
 # credentials.py
 
 import csv
-
+#this is a class to verify credentials entered by user
 class CredentialManager:
     def __init__(self, credential_file):
         self.users = self.read_credentials(credential_file)
